@@ -1,0 +1,195 @@
+/* Reset general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales del body y fuentes */
+body {
+    font-family: 'Chadenia', sans-serif;
+    color: #1A1B29;  /* Azul Oscuro */
+    background-color: #F1F0EE;  /* Casi Blanco */
+}
+
+/* Estilos para la sección hero */
+.hero {
+    background-color: #1A1B29;
+    color: #9A7A51;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name-1, .name-2 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.name-1 p, .name-2 p {
+    font-size: 3rem;
+}
+
+.name-1 h5, .name-2 h5 {
+    font-size: 5rem;
+}
+
+/* Estilos para la sección de la boda */
+.wedding-section {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.wedding-title h1 {
+    font-size: 3rem;
+    color: #1A1B29;  /* Azul Oscuro */
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.parents-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.bride-parents, .groom-parents {
+    flex: 1;
+    text-align: center;
+}
+
+.bride-parents h4, .groom-parents h4 {
+    color: #1A1B29;  /* Azul Oscuro */
+    text-transform: uppercase;
+}
+
+/* Estilos para la sección de imágenes */
+.images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.slider {
+    overflow: hidden;
+    width: 60%;
+    height: 70%;
+    border-radius: 8px;
+    max-width: 350px;
+}
+
+.slider--inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    transition: all 1s ease-in-out;
+}
+
+.slider--inner img {
+    width: 100%;
+    aspect-ratio: 2/3;
+    object-fit: cover;
+}
+
+.images-text {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.images-text h3 {
+    font-size: 1.5rem;
+    color: #1A1B29;  /* Azul Oscuro */
+}
+
+.images-text p {
+    color: #9A7A51;  /* Dorado fuerte */
+}
+
+/* Estilos para la sección de información de la boda */
+.wedding-info {
+    background-color: #D7CAB0;  /* Beige */
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+    padding: 2rem;
+    border-radius: 20px 1px;
+}
+
+.wedding-topic {
+    background-color: #1A1B29;  /* Azul Oscuro */
+    color: #F1F0EE;  /* Casi Blanco */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    border: 2px solid #D7CAB0;  /* Beige */
+    border-radius: 0px 18px;
+    padding: 1rem;
+}
+
+.img-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9A7A51;  /* Dorado fuerte */
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.wedding-topic h4, .wedding-topic h5 {
+    text-transform: uppercase;
+}
+
+.wedding-topic p {
+    color: #F1F0EE;  /* Casi Blanco */
+}
+
+/* Estilos para la sección de cuenta regresiva */
+.countdown {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    max-width: 500px;
+    margin: auto;
+    padding: 1rem;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.countdown-title {
+    font-size: 2rem;
+    color: #1A1B29;  /* Azul Oscuro */
+    text-transform: uppercase;
+}
+
+.timer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+
+.time h3 {
+    font-weight: 800;
+    color: #1A1B29;  /* Azul Oscuro */
+}
+
+.time small {
+    color: #9A7A51;  /* Dorado fuerte */
+}
