@@ -35,3 +35,5 @@ function updateCountdownTime() {
 }
 
 setInterval(updateCountdownTime,1000);
+
+document.getElementById('song').play();
