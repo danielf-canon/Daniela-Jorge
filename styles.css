@@ -9,7 +9,7 @@
 
 /* Estilos generales del body y fuentes */
 body {
-    font-family: 'Chadenia', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #1A1B29;  /* Azul Oscuro */
     background-color: #F1F0EE;  /* Casi Blanco */
 }
@@ -20,37 +20,21 @@ body {
 
 /* Estilos para la sección hero */
 .hero {
-    font-family: 'Mrs Saint Delafield', cursive;
+    font-family: 'Edwardian Script ITC', cursive;
     background-color: #1A1B29;
     background-image: url(assets/WhatsApp\ Image\ 2024-07-20\ at\ 7.05.21\ PM.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    color: #18381e;
     height: 100vh;
-    display: flex;
-    justify-content: end;   
-    align-items: end;
-}
-
-.hero-content {
-    display: flex;
-    flex-direction: column;
 }
 
 .name-1, .name-2 {
     display: flex;
     align-items: center;
     gap: 1rem;
-    margin-top: 1rem;
-}
-
-.name-1 p, .name-2 p {
+    font-weight: 800;
     font-size: 3rem;
-}
-
-.name-1 h5, .name-2 h5 {
-    font-size: 5rem;
 }
 
 /* Estilos para la sección de la boda */
