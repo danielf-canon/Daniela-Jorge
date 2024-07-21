@@ -1,3 +1,5 @@
+/*mobile version*/
+
 /* Reset general */
 * {
     margin: 0;
@@ -12,20 +14,28 @@ body {
     background-color: #F1F0EE;  /* Casi Blanco */
 }
 
+.container {
+    max-width: 500px;
+}
+
 /* Estilos para la sección hero */
 .hero {
+    font-family: 'Mrs Saint Delafield', cursive;
     background-color: #1A1B29;
-    color: #9A7A51;
+    background-image: url(assets/WhatsApp\ Image\ 2024-07-20\ at\ 7.05.21\ PM.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #18381e;
     height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: end;   
+    align-items: end;
 }
 
 .hero-content {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .name-1, .name-2 {
@@ -50,7 +60,7 @@ body {
 }
 
 .wedding-title h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: #1A1B29;  /* Azul Oscuro */
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -165,31 +175,67 @@ body {
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    max-width: 500px;
-    margin: auto;
-    padding: 1rem;
+    padding: 11rem 0rem 20rem 0rem;
     gap: 1rem;
-    margin-top: 2rem;
+    background-image: url(assets/cindy-chen-EP4VrAn-WaY-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.countdown-content{
+    display: flex;
+    max-width: 500px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 0.75rem;
 }
 
 .countdown-title {
     font-size: 2rem;
-    color: #1A1B29;  /* Azul Oscuro */
+    color:#9A7A51;  /* Azul Oscuro */
     text-transform: uppercase;
 }
 
 .timer {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     gap: 1rem;
 }
 
+.time {
+    margin: 0rem 0.5rem 0rem 0.5rem;
+}
+
 .time h3 {
     font-weight: 800;
-    color: #1A1B29;  /* Azul Oscuro */
+    color: #F1F0EE;  /* Azul Oscuro */
 }
 
 .time small {
-    color: #9A7A51;  /* Dorado fuerte */
+    color: #F1F0EE;  /* Dorado fuerte */
+}
+
+.footer {
+    border-top: #9A7A51 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.68rem;
+    color: #D7CAB0;
+    background-color: #1A1B29;
+    text-align: center;
+    font-weight: 600;
+    padding: 3rem;
+}
+
+.content-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    transform: scale(1.1);
 }
