@@ -97,7 +97,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 2rem;
+  padding-top: 2rem;
 }
 
 .slider {
@@ -206,6 +206,7 @@ a {
   gap: 0.5rem;
   padding: 2rem 0rem;
   text-align: center;
+  margin: auto;
 }
 
 .asistencia h3 {
@@ -284,7 +285,7 @@ a {
 }
 
 .footer {
-  border-top: #9a7a51 1px solid;
+  border-top: rgb(154, 122, 81) 1px solid;
   display: flex;
   justify-content: center;
   align-items: center;
