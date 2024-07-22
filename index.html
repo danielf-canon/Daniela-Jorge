@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Edwardian+Script+ITC&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
 
@@ -12,7 +11,7 @@
     <title>Jorge & Daniela</title>
   </head>
   <body>
-    <section class="hero">
+    <section class="hero fadeInAnimation animate-on-scroll">
     </section>
     <section class="wedding-section">
       <div class="wedding-title">
@@ -20,18 +19,15 @@
           Daniela<br />
           & Jorge
         </h1>
-        <p>Con la bendición de nuestros padres</p>
+        <br>
+        <p>Con el amor y la compañía de nuestros padres.</p>
       </div>
       <div class="parents-card">
         <div class="bride-parents">
-          <h4>Papás de la novia</h4>
-          <br />
           <p>Enrique Gonzalez</p>
           <p>Genny Canacue</p>
         </div>
         <div class="groom-parents">
-          <h4>Papás del novio</h4>
-          <br />
           <p>Jorge Cañón</p>
           <p>Yolanda Sanchez</p>
         </div>
@@ -51,14 +47,17 @@
           <img src="assets/f9.jpeg" alt="" />
           <img src="assets/f10.jpeg" alt="" />
         </div>
+        <audio src="assets/Miel.mp3" controls autoplay></audio>
       </div>
       <div class="images-text">
-        <iframe src="assets/Miel.mp3" allow="autoplay" style="display:none" id="iframeAudio">
-        </iframe> 
-        <h3>Nos casamos!</h3>
+        <h3>¡Nos casamos!</h3>
         <p>
-          Es un momento importante para nosotros y queremos compartirlo contigo
+          Nos encantaría contar contigo para compartir nuestra felicidad y hacer de este día un recuerdo inolvidable juntos.
         </p>
+        <br>
+        <hr>
+        <h5>INVITACIÓN VALIDA PARA UNA PERSONA</h5>
+        <hr>
       </div>
     </section>
     <section class="wedding-info">
@@ -94,9 +93,10 @@
             </g>
           </svg>
         </div>
-        <h4 class="">Ceremonia</h4>
-        <h5 class="">4:00 pm</h5>
-        <p>Hacienda Villa Sara-Cl. 246 #7 - 17, Bogotá</p>
+        <h4 class="">Ceremonia y Recepción</h4>
+        <h5 class="">Domingo 18-Ago-2024<br><br> 3:00 pm</h5>
+        <h5>Hacienda Villa Sara-Cl. 246 #7 - 17</h5>
+        <button class="card-button"><a href="https://maps.app.goo.gl/PMTyxC89LdMMu4DP8"> Ver en el mapa </a></button>
       </article>
       <article class="wedding-topic">
         <div class="img-circle">
@@ -104,7 +104,7 @@
         </div>
         <h4 class="">Dress code</h4>
         <h5 class="">Formal, tenis blancos.</h5>
-        <p>Se reserva color blanco para la novia</p>
+       <button class="modal-dressCode card-button">Haz clic e inspírate.</button>
       </article>
       <article class="wedding-topic">
         <div class="img-circle">
@@ -148,10 +148,18 @@
             </g>
           </svg>
         </div>
-        <h4 class="">Regalos</h4>
-        <h5 class="">Plata</h5>
-        <p>Lluvia de sobres</p>
+        <h4 class="">Regalo</h4>
+        <h5 class="">Lluvia de sobres</h5>
       </article>
+    </section>
+    <section class="asistencia container">
+        <h3>Confirma tu asistencia</h3>
+        <p>Nos encantaría contar con tu compañía, escribenos.</p>
+        <div
+        class="whatsApp-confirmation">
+          <button class="WhatsApp-Button"><svg height="16px" width="16px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path style="fill:#EDEDED;" d="M0,512l35.31-128C12.359,344.276,0,300.138,0,254.234C0,114.759,114.759,0,255.117,0 S512,114.759,512,254.234S395.476,512,255.117,512c-44.138,0-86.51-14.124-124.469-35.31L0,512z"></path> <path style="fill:#41bd5a;" d="M137.71,430.786l7.945,4.414c32.662,20.303,70.621,32.662,110.345,32.662 c115.641,0,211.862-96.221,211.862-213.628S371.641,44.138,255.117,44.138S44.138,137.71,44.138,254.234 c0,40.607,11.476,80.331,32.662,113.876l5.297,7.945l-20.303,74.152L137.71,430.786z"></path> <path style="fill:#FEFEFE;" d="M187.145,135.945l-16.772-0.883c-5.297,0-10.593,1.766-14.124,5.297 c-7.945,7.062-21.186,20.303-24.717,37.959c-6.179,26.483,3.531,58.262,26.483,90.041s67.09,82.979,144.772,105.048 c24.717,7.062,44.138,2.648,60.028-7.062c12.359-7.945,20.303-20.303,22.952-33.545l2.648-12.359 c0.883-3.531-0.883-7.945-4.414-9.71l-55.614-25.6c-3.531-1.766-7.945-0.883-10.593,2.648l-22.069,28.248 c-1.766,1.766-4.414,2.648-7.062,1.766c-15.007-5.297-65.324-26.483-92.69-79.448c-0.883-2.648-0.883-5.297,0.883-7.062 l21.186-23.834c1.766-2.648,2.648-6.179,1.766-8.828l-25.6-57.379C193.324,138.593,190.676,135.945,187.145,135.945"></path> </g></svg><a href="">Novio</a></button>
+          <button class="WhatsApp-Button"><svg height="16px" width="16px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path style="fill:#EDEDED;" d="M0,512l35.31-128C12.359,344.276,0,300.138,0,254.234C0,114.759,114.759,0,255.117,0 S512,114.759,512,254.234S395.476,512,255.117,512c-44.138,0-86.51-14.124-124.469-35.31L0,512z"></path> <path style="fill:#41bd5a;" d="M137.71,430.786l7.945,4.414c32.662,20.303,70.621,32.662,110.345,32.662 c115.641,0,211.862-96.221,211.862-213.628S371.641,44.138,255.117,44.138S44.138,137.71,44.138,254.234 c0,40.607,11.476,80.331,32.662,113.876l5.297,7.945l-20.303,74.152L137.71,430.786z"></path> <path style="fill:#FEFEFE;" d="M187.145,135.945l-16.772-0.883c-5.297,0-10.593,1.766-14.124,5.297 c-7.945,7.062-21.186,20.303-24.717,37.959c-6.179,26.483,3.531,58.262,26.483,90.041s67.09,82.979,144.772,105.048 c24.717,7.062,44.138,2.648,60.028-7.062c12.359-7.945,20.303-20.303,22.952-33.545l2.648-12.359 c0.883-3.531-0.883-7.945-4.414-9.71l-55.614-25.6c-3.531-1.766-7.945-0.883-10.593,2.648l-22.069,28.248 c-1.766,1.766-4.414,2.648-7.062,1.766c-15.007-5.297-65.324-26.483-92.69-79.448c-0.883-2.648-0.883-5.297,0.883-7.062 l21.186-23.834c1.766-2.648,2.648-6.179,1.766-8.828l-25.6-57.379C193.324,138.593,190.676,135.945,187.145,135.945"></path> </g></svg><a href="">Novia</a></button>
+        </div>
     </section>
     <section class="countdown">
       <div class="countdown-content">
@@ -185,6 +193,30 @@
         <h5>#Daniela&Jorge</h5>
       </div>
     </footer>
-    <script src="script.js"></script>
+    <div id="modal-dressCode" class="modal">
+      <span class="close">&times;</span>
+      <div class="modal-content">
+        <h2>Dress Code</h2>
+        <div class="instrucciones">
+          <article class="nose">
+            <span class="div-man">Ellos</span>
+            <h5>Traje formal</h5>
+            <p>Se reserva el color azul para el novio</p>
+          </article>
+          <article class="nose">
+            <span class="div-woman">Ellas</span>
+            <h5>Vestido largo</h5>
+            <p>Se reserva el color blanco para la novia</p>
+          </article>
+        </div>
+        <div class="color-circles">
+          <div class="color1 circle"></div>
+          <div class="color2 circle"></div>
+          <div class="color3 circle"></div>
+          <div class="color5 circle"></div>
+        </div>
+      </div>
+    </div>
+  <script src="script.js"></script>
   </body>
 </html>
