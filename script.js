@@ -17,7 +17,7 @@ setInterval(function () {
   }
 }, 5000);
 
-const weddingTime = new Date("August 18 2024 03:00:00");
+const weddingTime = new Date("August 18 2024 15:00:00");
 
 function updateCountdownTime() {
   const currentTime = new Date();
